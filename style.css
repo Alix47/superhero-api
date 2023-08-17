@@ -1,0 +1,86 @@
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url("https://edtimes.in/wp-content/uploads/2022/01/fi-1.jpeg");
+  background-size: cover;
+}
+
+.wrapper {
+  height: 100%;
+  width: 360px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+  filter: drop-shadow(0.30em 0.30em 0.2em);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.title:hover {
+  font-size: 1.1rem;
+}
+
+h2 {
+  transition: 2s ease-out;
+}
+
+h2:hover {
+  color: red;
+  font-weight: 700;
+  
+}
+
+#topContainer {
+  margin-top: 4rem;
+
+}
+
+.container {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.inputContainer {
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: evenly-spaced;
+}
+
+.inputContainer:focus {
+  background-color: darkgreen;
+  width: 400%;
+}
+
+#searchbutton {
+  background-color: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+}
+
+#NewHeroButton {
+  background-color: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+}
+
+#NewHeroButton:active {
+  background-color: darkgreen;
+}
+
+#searchbutton:active {
+  background-color: darkgreen;
+}
